@@ -59,7 +59,7 @@ void insertionsort()
 
  
 
-   
+ // The code is taken from the notes, it creates a random linked list from an array //   
 int * generateArray (int n){
     int * t = malloc(n*sizeof(int));
     if (t) {
@@ -127,3 +127,4 @@ int main(){
     freeLinkedList(list);
     return 0; 
 }
+// This code is inspired by https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/ //
